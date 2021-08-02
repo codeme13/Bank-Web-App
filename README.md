@@ -4,12 +4,12 @@ The Sparks Foundation Tasks
 This repository contains the tasks that I completed while working as an intern for The Sparks Foundation.
 
 Internship Category - Web Development and Design
-Internship Duration - 1 Month ( January-2020 )
+Internship Duration - 1 Month ( January-2021 )
 Internship Type - Work from Home
 
 
 
-# Task-1 : Basic Banking System     <a href="https://www.youtube.com/channel/UCUF3H24RRzk4Z5cZQvdgDUg"><img src="https://cdn2.iconfinder.com/data/icons/social-18/512/YouTube-2-256.png" width="50" height="50" align="right"></a>                                  
+# Task-1 : Basic Banking System                                      
 ◇ Create a simple dynamic website which has the following specs.
 
 ◇ Start with creating a dummy data in database for upto 10
