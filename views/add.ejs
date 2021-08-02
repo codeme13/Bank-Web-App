@@ -1,0 +1,47 @@
+<% layout('./layouts/layouts') %> 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Add New Customer</h1>
+                    </div>
+                    <div class="card-body">
+                        <form action="/add" method="POST" class="needs-validation" novalidate>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="form">Name: </label>
+                               <input type="text" class="form-control" name="name">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="cati">Contact:</label>
+                             <input type="mobile" class="form-control" name="contact" required maxlength="10" minlength="10">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Amount $</span>
+                                <input type="number" class="form-control" name="amount" required min="0" maxlength="6" >
+                                <span class="input-group-text">.00</span>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                                  <div class="invalid-feedback">
+                                    Enter Amount
+                                  </div>
+                            </div>
+                            <div class="input-group mb-3 ">
+                                <label class="input-group-text" for="com">Email</label>
+                                <input type="email" class="form-control " name="place" id="com" required pattern="[^ @]*@[^ @]*">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                                  <div class="invalid-feedback">
+                                    Input Data Error
+                                  </div>
+                            </div>
+                            <button class="btn btn-success">Done</button>
+                            <a class="btn btn-dark" href="http://localhost:3000/customer">Back to Home</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
